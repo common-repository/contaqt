@@ -1,0 +1,114 @@
+
+#main_plugin {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#nieu_items {}
+
+#nieu_items .nieu_item {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #F6F6F6 0%, #EAEAEA 100%) repeat scroll 0 0 transparent;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 1px rgba(0, 0, 0, 0.1), 0 3px 1px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 0 #DDDDDD;
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+
+#nieu_items .nieu_item .nieu_item-content {
+  padding: 10px;
+}
+
+#nieu_items .nieu_item .nieu_picture .nieu_description {
+    margin-top: 10px;
+}
+
+#nieu_items .nieu_item .meta span {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    margin-right: 5px;
+}
+
+#nieu_items .nieu_item .nieu_picture {
+    display: block;
+    position: relative;
+    z-index: 5;
+    border-top: 1px solid #999999;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#nieu_items .nieu_item .nieu_picture a.nieu_image {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+#nieu_items .nieu_item .nieu_picture img {
+    border-radius: 2px 2px 0px 0px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.nieu_picture img {
+    height: auto;
+    width: 100%;
+}
+
+
+.navbar-inner {
+  box-shadow: 0px 5px 10px #999 !important;
+}
+
+
+/* RESPONSIVE CSS HACKS
+ -------------------------------------------------- */
+ @media (max-width: 768px) {
+  #main_plugin {
+    margin-top: 5px;
+  }
+}
+.contaqt-form-modal{
+    max-width: 340px !important;
+}
+div.parent {
+
+    /*border:solid black 1px;*/
+    display: table;
+
+    width: 100%;
+   /* you can change/remove margin */
+}
+
+#main_parent, #nieu_items {
+
+    padding: 1px;
+}
+
+div.text {
+
+    vertical-align: middle;
+    display: table-cell;
+    text-align: justify;
+}
+
+div.parent .img {
+    vertical-align: inherit;
+    display: table-cell;
+    /*padding-right:5px;*/
+    /*width:50px; *//* you can change width */
+    padding: 5px;
+}
+
+
+div.img img {
+    /*width:100%;*/
+    /*height:50px; *//* you can change height */
+    vertical-align: middle;
+}
